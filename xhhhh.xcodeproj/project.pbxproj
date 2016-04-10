@@ -405,6 +405,7 @@
 				GCC_PREFIX_HEADER = "xhhhh/xhhhh-Prefix.pch";
 				INFOPLIST_FILE = "xhhhh/xhhhh-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -416,6 +417,7 @@
 				GCC_PREFIX_HEADER = "xhhhh/xhhhh-Prefix.pch";
 				INFOPLIST_FILE = "xhhhh/xhhhh-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -473,6 +475,7 @@
 				C84D79AC17B2938600910E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84D79AD17B2938600910E58 /* Build configuration list for PBXNativeTarget "xhhhhTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +484,7 @@
 				C84D79AF17B2938600910E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
